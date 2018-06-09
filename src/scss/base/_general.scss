@@ -1,0 +1,78 @@
+//
+// General styling for the page
+//
+body{
+  width: 100%;
+  font-size: ems($bodyfont-size);
+  font-weight: normal;
+  font-style: normal;
+  color: $off-black;
+  background-color: $site-background-color;
+  background-image: url('../images/bright_squares.png');
+  background-attachment: fixed;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong{
+    font-style: normal;
+    color: $heading-color;
+  }
+
+  // Responsive Images
+  img{
+      max-width: 100%;
+      height: auto;
+    }
+
+  a{
+    transition: color 0.4s;
+    color: $primary-accent;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover{
+      color: lighten($primary-accent,20);
+    }
+  }
+
+  blockquote {
+    border: none;
+    color: $bodycolor;
+  }
+}
+
+// Main Content Wrap
+.content-container{
+  @include media_query($tablet-breakpoint){
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include media_query($mobile-breakpoint){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @include media_query($small-mobile-breakpoint){
+    padding-left: 0;
+    padding-right: 0;
+  }
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+
+  .divider{
+    width: 100px;
+    height: 14px;
+    border-top: 1px solid #{$primary-accent};
+    border-bottom: 1px solid #{$primary-accent};
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}

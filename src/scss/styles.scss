@@ -1,0 +1,23 @@
+//
+// Main Sass file for imports
+//
+
+// Base Sass Files
+@import 'base/setup';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/placeholders';
+@import 'base/general';
+
+// General Layout Components
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/page';
+@import 'layout/post';
+
+// Specific Page Styles
+@import 'pages/index';
+@import 'pages/projects';
+@import 'pages/blog';
+@import 'pages/404';
+

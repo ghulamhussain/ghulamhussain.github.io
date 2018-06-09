@@ -1,0 +1,3086 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f7977cf6eb7f5076a28ca51978bd3eaa",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4d6b00c760007a5ce44de9d70d6e4682",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a05b977f0e3295aadef6e60857105324",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cc926db3730f8a66652e2d626a331561",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9844febc54f2b0b435e552107578eb5f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a648dddf837c882452eec81d5d00037d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d82cd3c8afebe31297c05839cb027ffd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-wordpress": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-source-wordpress",
+      "id": "Plugin gatsby-source-wordpress",
+      "name": "gatsby-source-wordpress",
+      "version": "2.0.91",
+      "pluginOptions": {
+        "plugins": [],
+        "baseUrl": "dfjames.press",
+        "protocol": "https",
+        "hostingWPCOM": false,
+        "useACF": true,
+        "verboseOutput": false
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-source-wordpress",
+      "packageJson": {
+        "name": "gatsby-source-wordpress",
+        "description": "Gatsby source plugin for building websites using the Wordpress CMS as a data source.",
+        "version": "2.0.91",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": {
+          "name": "Sebastien Fichot",
+          "email": "fichot.sebastien@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.6"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "deep-map-keys",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.38"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3fd2a9a288eb1b2205ea9d3dc7693004",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4d5410ee181b77f74b57ca0819ed94e2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.25",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "David James - Front End Developer",
+        "short_name": "David James",
+        "start_url": "/",
+        "background_color": "#111111",
+        "theme_color": "#111111",
+        "display": "minimal-ui"
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.json to make sites progressive web apps",
+        "version": "1.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.json",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "16c3226fc2a2000147dc8082367ed7ea",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8955532d799dbe826598fb8d370537a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.18",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8667f8cdf2795ffadf3f9f5b17b39a27",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/images/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": {
+          "name": "Julien Blatecky",
+          "email": "julien.blatecky@creatiwity.net"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8763b9454d7782c074dd685394b5e48f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-tagmanager": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-google-tagmanager",
+      "id": "Plugin gatsby-plugin-google-tagmanager",
+      "name": "gatsby-plugin-google-tagmanager",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": [],
+        "id": "GTM-NDXSQ5N",
+        "includeInDevelopment": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-google-tagmanager",
+      "packageJson": {
+        "name": "gatsby-plugin-google-tagmanager",
+        "description": "Gatsby plugin to add google tagmanager onto a site",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics",
+          "google tagmanager"
+        ],
+        "author": {
+          "name": "Thijs Koerselman",
+          "email": "thijs@vauxlab.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dfcdc4aa9dbf72bb37cfea3a7d76bf08",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "tomato",
+        "showSpinner": true
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e4be14f168cc76005a273909deca905e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-postcss-sass": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-postcss-sass",
+      "id": "Plugin gatsby-plugin-postcss-sass",
+      "name": "gatsby-plugin-postcss-sass",
+      "version": "1.0.21",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": [
+          null
+        ]
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-postcss-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss-sass",
+        "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
+        "version": "1.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Scotty Eckenthal",
+          "email": "scotty@meetfabric.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "890ecf32678892e213a0e8756f50087f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/ghulamhussain/my/ghulamhussain.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "50a3aac48653d96c9015cabe60266fac",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/ghulamhussain/my/ghulamhussain.github.io",
+      "packageJson": {
+        "name": "dfjames-gatsby",
+        "description": "My portfolio site using GatsbyJS pulling data from Wordpress REST API",
+        "version": "1.2.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby",
+          "wordpress"
+        ],
+        "author": "David James <davidj28827@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "autoprefixer",
+            "version": "^8.5.0"
+          },
+          {
+            "name": "date-fns",
+            "version": "^1.29.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.222"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.38"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "gatsby-plugin-google-tagmanager",
+            "version": "^1.0.18"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.13"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.17"
+          },
+          {
+            "name": "gatsby-source-wordpress",
+            "version": "^2.0.62"
+          },
+          {
+            "name": "react-icons",
+            "version": "^2.2.7"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "962e21ab83c65500e6998eef94731547",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2018-06-09T11:56:46.592Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b7df52bcab95e6ff668659331a17825f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/dea5890bbc14ce011a711698915ae406.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/dea5890bbc14ce011a711698915ae406.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41c9662e454d7601b185f3facc26a8ec",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/absolute.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/dea5890bbc14ce011a711698915ae406.png",
+      "relativePath": ".cache/gatsby-source-filesystem/dea5890bbc14ce011a711698915ae406.png",
+      "extension": "png",
+      "size": 87239,
+      "prettySize": "87.2 kB",
+      "modifiedTime": "2018-06-09T11:57:31.624Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:31.632Z",
+      "birthTime": "2018-06-09T11:57:31.632Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "dea5890bbc14ce011a711698915ae406.png",
+      "ext": ".png",
+      "name": "dea5890bbc14ce011a711698915ae406",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459620,
+      "blocks": 176,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545451624.2546,
+      "ctimeMs": 1528545451632.255,
+      "birthtimeMs": 1528545451632.255,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:31.624Z",
+      "ctime": "2018-06-09T11:57:31.632Z",
+      "birthtime": "2018-06-09T11:57:31.632Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/0ad3df54debb226c33ac349c47ac38c3.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/0ad3df54debb226c33ac349c47ac38c3.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e986d109d60e8ea0dc2a0e103d6ec194",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/venus.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/0ad3df54debb226c33ac349c47ac38c3.png",
+      "relativePath": ".cache/gatsby-source-filesystem/0ad3df54debb226c33ac349c47ac38c3.png",
+      "extension": "png",
+      "size": 100216,
+      "prettySize": "100 kB",
+      "modifiedTime": "2018-06-09T11:57:31.668Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:31.672Z",
+      "birthTime": "2018-06-09T11:57:31.672Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "0ad3df54debb226c33ac349c47ac38c3.png",
+      "ext": ".png",
+      "name": "0ad3df54debb226c33ac349c47ac38c3",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459625,
+      "blocks": 200,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545451668.2556,
+      "ctimeMs": 1528545451672.2556,
+      "birthtimeMs": 1528545451672.2556,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:31.668Z",
+      "ctime": "2018-06-09T11:57:31.672Z",
+      "birthtime": "2018-06-09T11:57:31.672Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/14f8974675209eee9623cdc256f3146e.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/14f8974675209eee9623cdc256f3146e.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "30fba59b4c1cecb427b716f8447e058c",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/modus.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/14f8974675209eee9623cdc256f3146e.png",
+      "relativePath": ".cache/gatsby-source-filesystem/14f8974675209eee9623cdc256f3146e.png",
+      "extension": "png",
+      "size": 91042,
+      "prettySize": "91 kB",
+      "modifiedTime": "2018-06-09T11:57:31.720Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:31.720Z",
+      "birthTime": "2018-06-09T11:57:31.720Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "14f8974675209eee9623cdc256f3146e.png",
+      "ext": ".png",
+      "name": "14f8974675209eee9623cdc256f3146e",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459622,
+      "blocks": 184,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545451720.2566,
+      "ctimeMs": 1528545451720.2566,
+      "birthtimeMs": 1528545451720.2566,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:31.720Z",
+      "ctime": "2018-06-09T11:57:31.720Z",
+      "birthtime": "2018-06-09T11:57:31.720Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/389230cc527db7bc526a44f230b40aa9.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/389230cc527db7bc526a44f230b40aa9.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "720a3610f129894fb28b0dd3abdcb4e1",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/soca.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/389230cc527db7bc526a44f230b40aa9.png",
+      "relativePath": ".cache/gatsby-source-filesystem/389230cc527db7bc526a44f230b40aa9.png",
+      "extension": "png",
+      "size": 106757,
+      "prettySize": "107 kB",
+      "modifiedTime": "2018-06-09T11:57:31.780Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:31.784Z",
+      "birthTime": "2018-06-09T11:57:31.784Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "389230cc527db7bc526a44f230b40aa9.png",
+      "ext": ".png",
+      "name": "389230cc527db7bc526a44f230b40aa9",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459624,
+      "blocks": 216,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545451780.2578,
+      "ctimeMs": 1528545451784.258,
+      "birthtimeMs": 1528545451784.258,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:31.780Z",
+      "ctime": "2018-06-09T11:57:31.784Z",
+      "birthtime": "2018-06-09T11:57:31.784Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/58a27537c43dd5b461d1274f9ede221c.jpg absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/58a27537c43dd5b461d1274f9ede221c.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "35731aaf8517b208d98210039cc0e198",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/58a27537c43dd5b461d1274f9ede221c.jpg",
+      "relativePath": ".cache/gatsby-source-filesystem/58a27537c43dd5b461d1274f9ede221c.jpg",
+      "extension": "jpg",
+      "size": 125341,
+      "prettySize": "125 kB",
+      "modifiedTime": "2018-06-09T11:57:31.808Z",
+      "accessTime": "2018-06-09T11:57:29.944Z",
+      "changeTime": "2018-06-09T11:57:31.808Z",
+      "birthTime": "2018-06-09T11:57:31.808Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "58a27537c43dd5b461d1274f9ede221c.jpg",
+      "ext": ".jpg",
+      "name": "58a27537c43dd5b461d1274f9ede221c",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459619,
+      "blocks": 248,
+      "atimeMs": 1528545449944.2202,
+      "mtimeMs": 1528545451808.2585,
+      "ctimeMs": 1528545451808.2585,
+      "birthtimeMs": 1528545451808.2585,
+      "atime": "2018-06-09T11:57:29.944Z",
+      "mtime": "2018-06-09T11:57:31.808Z",
+      "ctime": "2018-06-09T11:57:31.808Z",
+      "birthtime": "2018-06-09T11:57:31.808Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/7b8b9ab52b917f1676e040608a4c55ca.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/7b8b9ab52b917f1676e040608a4c55ca.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9c6c0a41b60438200bd31771aeaa3d79",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/rylock.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/7b8b9ab52b917f1676e040608a4c55ca.png",
+      "relativePath": ".cache/gatsby-source-filesystem/7b8b9ab52b917f1676e040608a4c55ca.png",
+      "extension": "png",
+      "size": 239676,
+      "prettySize": "240 kB",
+      "modifiedTime": "2018-06-09T11:57:32.084Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:32.088Z",
+      "birthTime": "2018-06-09T11:57:32.088Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "7b8b9ab52b917f1676e040608a4c55ca.png",
+      "ext": ".png",
+      "name": "7b8b9ab52b917f1676e040608a4c55ca",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459623,
+      "blocks": 472,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545452084.2642,
+      "ctimeMs": 1528545452088.2642,
+      "birthtimeMs": 1528545452088.2642,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:32.084Z",
+      "ctime": "2018-06-09T11:57:32.088Z",
+      "birthtime": "2018-06-09T11:57:32.088Z"
+    },
+    "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/4aa03172756a697cf81e3535f737f626.png absPath of file": {
+      "id": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/4aa03172756a697cf81e3535f737f626.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b8694f1fe0e962d9f20c8f466cfd0d3",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"https://dfjames.press/assets/uploads/2018/05/forklift.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "__PROGRAMATTIC__",
+      "absolutePath": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/4aa03172756a697cf81e3535f737f626.png",
+      "relativePath": ".cache/gatsby-source-filesystem/4aa03172756a697cf81e3535f737f626.png",
+      "extension": "png",
+      "size": 275108,
+      "prettySize": "275 kB",
+      "modifiedTime": "2018-06-09T11:57:32.228Z",
+      "accessTime": "2018-06-09T11:57:29.948Z",
+      "changeTime": "2018-06-09T11:57:32.232Z",
+      "birthTime": "2018-06-09T11:57:32.232Z",
+      "root": "/",
+      "dir": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem",
+      "base": "4aa03172756a697cf81e3535f737f626.png",
+      "ext": ".png",
+      "name": "4aa03172756a697cf81e3535f737f626",
+      "relativeDirectory": ".cache/gatsby-source-filesystem",
+      "dev": 2049,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4459621,
+      "blocks": 544,
+      "atimeMs": 1528545449948.2202,
+      "mtimeMs": 1528545452228.267,
+      "ctimeMs": 1528545452232.267,
+      "birthtimeMs": 1528545452232.267,
+      "atime": "2018-06-09T11:57:29.948Z",
+      "mtime": "2018-06-09T11:57:32.228Z",
+      "ctime": "2018-06-09T11:57:32.232Z",
+      "birthtime": "2018-06-09T11:57:32.232Z"
+    },
+    "1f3f5909-a7ff-57bb-9f3b-f565216b83ef": {
+      "wordpress_id": 196,
+      "id": "1f3f5909-a7ff-57bb-9f3b-f565216b83ef",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_posts",
+        "contentDigest": "8dcc7d8081ad36818eb1fa938f5711af",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ff044da2-274a-52f8-b65f-b11a076178f3": {
+      "wordpress_id": 168,
+      "id": "ff044da2-274a-52f8-b65f-b11a076178f3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_posts",
+        "contentDigest": "df58af75f7ae8dc4fc92fd1adf9bce71",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "e6452734-26e1-5784-8f44-9b8d09eb6152": {
+      "wordpress_id": 156,
+      "acf": {
+        "portfolio_items": [
+          {
+            "item_title": "Modus Leadership",
+            "item_url": "http://modusleadership.com.au/",
+            "item_image___NODE": "e47b2a96-3f03-526d-b9f4-782c75b90c2a"
+          },
+          {
+            "item_title": "Rylock Windows",
+            "item_url": "https://rylock.com.au",
+            "item_image___NODE": "3eda54db-1f7f-5a86-b4a4-5862b1a8148b"
+          },
+          {
+            "item_title": "Absolute 3D",
+            "item_url": "http://absolute3d.com.au",
+            "item_image___NODE": "3840a15d-62ee-5b2c-b58f-9b372f19aa6a"
+          },
+          {
+            "item_title": "Venus White",
+            "item_url": "http://venuswhite.com.au",
+            "item_image___NODE": "fac57130-d000-5441-a6c7-36a693f08610"
+          },
+          {
+            "item_title": "Waverley Forklifts",
+            "item_url": "http://www.waverleyforklifts.com.au/",
+            "item_image___NODE": "ae94c9bf-a1b0-5028-a614-59ce4425a39c"
+          },
+          {
+            "item_title": "School Of Clay And Art",
+            "item_url": "http://soca.com.au",
+            "item_image___NODE": "6ae24a78-3f8b-5a5a-9741-cb8296b4db76"
+          }
+        ]
+      },
+      "id": "e6452734-26e1-5784-8f44-9b8d09eb6152",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_pages",
+        "contentDigest": "2d5b4f8de9bee9fb8b9d055e354a5183",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ecf9039d-d2c3-58da-bf5f-7ec2c8858a5f": {
+      "wordpress_id": 7,
+      "acf": {
+        "profile_image___NODE": "91eaaca7-1957-5d27-8705-b9c2c86194f2",
+        "dummy": true
+      },
+      "id": "ecf9039d-d2c3-58da-bf5f-7ec2c8858a5f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_pages",
+        "contentDigest": "8d462fef1ff5c44238b62c8a3297a8b1",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "5855580e-0839-5b5e-ab87-6f40a5be37b6": {
+      "wordpress_id": 221,
+      "id": "5855580e-0839-5b5e-ab87-6f40a5be37b6",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "2834000f4e9d45b974d465f4c453b45b",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "4c092092-fe76-5cb5-bc4d-cb3dbd910d3f": {
+      "wordpress_id": 220,
+      "id": "4c092092-fe76-5cb5-bc4d-cb3dbd910d3f",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "c48c53f0c2e8764122e245ff5f7b72b9",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "390bca37-c7e9-5db5-b126-868dc9bb6264": {
+      "wordpress_id": 219,
+      "id": "390bca37-c7e9-5db5-b126-868dc9bb6264",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "a747c1e1e93aea898b86af8ad4a9340c",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "285af8b0-230d-5072-85d3-1f7b1087e993": {
+      "wordpress_id": 218,
+      "id": "285af8b0-230d-5072-85d3-1f7b1087e993",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "a1f461b8a238d7e3f30f1f922aa76609",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "d0c76789-0cce-5a7f-bf2f-cf1c8cbe683e": {
+      "wordpress_id": 217,
+      "id": "d0c76789-0cce-5a7f-bf2f-cf1c8cbe683e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "323be558ccaff07f618fabc6c77c4638",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "3c834e07-f93b-58c8-8e69-7643fe4395f3": {
+      "wordpress_id": 216,
+      "id": "3c834e07-f93b-58c8-8e69-7643fe4395f3",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "ae7152117ec696e3f43d573290536dad",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b443bd79-8a8b-5c49-bfc0-d853cd6a002d": {
+      "wordpress_id": 213,
+      "id": "b443bd79-8a8b-5c49-bfc0-d853cd6a002d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_media",
+        "contentDigest": "4c3ec518b74440bc34badf28eee62bff",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "01599f72-5009-585d-82ac-3308fee77ce6": {
+      "wordpress_id": 1,
+      "id": "01599f72-5009-585d-82ac-3308fee77ce6",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_categories",
+        "contentDigest": "6e64e97a69f9498e6dff305340136f07",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "194917c6-66fe-5828-9ba4-d194e4222b6c": {
+      "wordpress_id": 2,
+      "id": "194917c6-66fe-5828-9ba4-d194e4222b6c",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__acf_users",
+        "contentDigest": "27198c81a4bbc7db49e265e85ddb11ab",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "bcf311a6-3de4-553f-a4f4-e227bf9b487d": {
+      "wordpress_id": 196,
+      "date": "2018-02-11T11:40:11.000Z",
+      "guid": "http://dfjames.press/?p=196",
+      "modified": "2018-02-11T12:37:46.000Z",
+      "slug": "email-automation-with-node-and-dropbox",
+      "status": "publish",
+      "type": "post",
+      "link": "https://dfjames.press/email-automation-with-node-and-dropbox/",
+      "title": "Email automation with Node and Dropbox",
+      "content": "<blockquote><p>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. &#8211; Bill Gates</p></blockquote>\n<p>This quote, I feel, describes why I love being a programmer. We are generally lazy yet quite good at solving problems, including our own! Sometimes, this may not involve even writing code, but most of the time you can assume we did 🤓</p>\n<p>So, my most recent problem: My Mum is required to email an invoice to her client fortnightly, and is fairly computer illiterate. This is handwritten and needs to be scanned as a PDF, and because I’m not around the house much anymore, my sister scans it for her, but she is too lazy to organise the email, so she adds it to my Dropbox so that, finally, I can email it to the client.</p>\n<p>I hate this entire process&#8230; and receiving &#8220;Have you sent that invoice?&#8221; text messages.</p>\n<h4>The steps involved for me are:</h4>\n<ol>\n<li>Downloading the file from Dropbox</li>\n<li>Logging into Mum&#8217;s email account</li>\n<li>Typing a very generic email to the client</li>\n<li>Attaching downloaded file</li>\n<li>Send the email</li>\n</ol>\n<p><strong>Solution:</strong> AUTOMATE ALL THE THINGS!</p>\n<h2>Javacript/Node to the rescue!</h2>\n<p>Javascript and Node seemed the most appropriate for my solution as I knew I would need to run a server-side application to check my Dropbox regularly to find the file. I am also in the process of trying to become more of a fullstack developer, so I knew this would be a great learning exercise.</p>\n<p>Recently I had completed <a href=\"https://learnnode.com/\" target=\"_blank\" rel=\"noopener\">Wes Bos&#8217; Learn Node</a> course which greatly assisted in the design choices for my final solution. This included but was not limited to: Node, ES6, <a href=\"https://scotch.io/tutorials/javascript-promises-for-dummies\" target=\"_blank\" rel=\"noopener\">Promises</a>, <a href=\"https://github.com/nodemailer/nodemailer\" target=\"_blank\" rel=\"noopener\">Nodemailer</a>, <a href=\"https://github.com/kelektiv/node-cron\" target=\"_blank\" rel=\"noopener\">Node Cron</a>, and shell scripting for continuous deployment (but I will go into this further in my next post &#8211; <a href=\"http://twitter.com/daviddeejjames\" target=\"_blank\" rel=\"noopener\">follow me on Twitter!</a>).</p>\n<p>I won&#8217;t go into too much more detail about specifics of the application as you can just take a look at it <a href=\"https://github.com/daviddeejjames/send-that-invoice\" target=\"_blank\" rel=\"noopener\">here on GitHub</a>. However, I would like to go on further to explain the issues I faced, how I could improve the application, and what utilities made writing this application a joy to create!</p>\n<h2>Promises and the Dropbox API</h2>\n<p>Previously, I had worked with the Dropbox API using PHP to create an <a href=\"https://github.com/daviddeejjames/randophoto\" target=\"_blank\" rel=\"noopener\">application</a> that would randomly pick a set of photos and display them onto a webpage. This was fairly basic and just didn&#8217;t feel right because we were just calling the API with a curl function and I am trying to use less PHP where I can these days.</p>\n<p>When it came round to building the invoice application, I found out that Dropbox had created a <a href=\"https://github.com/dropbox/dropbox-sdk-js\" target=\"_blank\" rel=\"noopener\">Javscript SDK</a> to interact with the API. This was exciting, and even more exciting when I read the documentation to find out that it was promise based! Promises mean that you can easily chain a few API calls to get the data that you require or perform the actions you need to with little to no effort.</p>\n<p>Here is an example of a promise chain to download a file. It assumes you are passing the path of the file, which you can get easily using another API call/promise.</p>\n<pre>const Dropbox = require('dropbox');\r\nconst dbx = new Dropbox({ accessToken: process.env.ACCESS_TOKEN });\r\n\r\nexports.getFile = function (path) {\r\n\r\n  const file = dbx.filesDownload({ path: path })\r\n    .then(function (response) {\r\n      return response;\r\n    })\r\n    .catch(function (error) {\r\n      console.log('Error downloading the file ❎');\r\n      return Promise.reject(error);\r\n    });\r\n\r\n  return file;\r\n};\r\n</pre>\n<p>I can&#8217;t believe it&#8217;s not butter! So simple, much file. 🐕</p>\n<p>Just to show you I&#8217;m not bluffing, I created another function that I called once the email was sent. This moves the file in Dropbox to another folder to indicate that this invoice has been sent.</p>\n<pre>exports.archiveFile = function (path, subFolderName) {\r\n  const archivedFile = dbx.filesMove({\r\n    from_path: path,\r\n    to_path: '/sent/' + subFolderName + path,\r\n    allow_shared_folder: true,\r\n    autorename: true,\r\n    allow_ownership_transfer: true\r\n  })\r\n    .then(function (fileMove) {\r\n      console.log('File ' + fileMove.name + ' archived successfully! 🗳');\r\n      return fileMove;\r\n    })\r\n    .catch(function (error) {\r\n      console.log('Error archiving the file 💥');\r\n      return Promise.reject(error);\r\n    });\r\n\r\n  return archivedFile;\r\n};\r\n</pre>\n<p>Here I pass the client name as the <code>subFolderName</code> which means that you get a well organised file path like <code>/sent/client-name/INV0001.PDF</code></p>\n<h3>But what about the Email?</h3>\n<p>Oh right, so before we go archiving the file, we obviously send the email. The creation of this email involves a few small parts but the sending of it is very straightforward.</p>\n<p>As my Mum has multiple clients, the solution needed to incorporate some form of reusability and scalability. I managed this by creating each client as a JSON file that would look something like this:</p>\n<pre>{\r\n  \"name\": \"Recipient\",\r\n  \"email\": \"test@email.com\",\r\n  \"subject\": \"An interesting Email Subject\",\r\n  \"text\": \"Hi John Doe,\\n\\nInvoice attached.\\n\\nKind Regards,\\nJane Doe\",\r\n  \"file-prefix\": \"INV\"\r\n}\r\n</pre>\n<p>This ensured each file to be sent from Dropbox would be mailed out based on its filename prefix, allowing each client to have a different name, email, subject, or text within the email. This also means that if she ever get more clients, it is just a matter of creating new JSON files to also be a part of the automation train. 🚂</p>\n<p>Using the data above and the calls to the Dropbox API we are able to build our email and send it using <a href=\"https://github.com/nodemailer/nodemailer\" target=\"_blank\" rel=\"noopener\">Nodemailer</a>.</p>\n<p>The code for sending an email through Nodemailer is a function call with a few option parameters (as seen below). These are passed then used in conjunction with a transport function, with most of its config set using environment variables (because you don&#8217;t want people spamming you or knowing your SMTP credentials).</p>\n<p>In this application, I added the file using a binary file stream/buffer which sounds far more complicated than it is or needs to be. In reality, it just means we get the binary version of the file from Dropbox, save it as a variable, pass it to the buffer, and then it becomes a file attachment.</p>\n<pre> ...\r\n\r\n const sendInvoice = attachedFile.searchFilePath(filePrefix)\r\n      .then(function (filePath){\r\n        foundFilePath = filePath;\r\n        const file = attachedFile.getFile(filePath);\r\n        return file;\r\n      })\r\n      .then(function (file) {\r\n        const mailPromise = mail.send({\r\n          email: recipient.email,\r\n          subject: recipient.subject,\r\n          text: recipient.text,\r\n          attachments: {   // binary buffer as an attachment\r\n            filename: file.name,\r\n            content: new Buffer(file.fileBinary, 'binary'),\r\n            encoding: 'binary'\r\n          }\r\n        });\r\n        return mailPromise;\r\n      })\r\n\r\n  ...\r\n</pre>\n<p>Voila! There is the majority of the application in just a few function calls. If <code>mailPromise</code> resolves, then our email will send.</p>\n<p>To test email sending while in development, using a service such as <a href=\"https://mailtrap.io/\" target=\"_blank\" rel=\"noopener\">Mailtrap</a> is a lifesaver as it is free and doesn&#8217;t fill up anyone’s inboxes 😆</p>\n<p>Once I got to production, I changed it over to <a href=\"https://www.mailgun.com/\" target=\"_blank\" rel=\"noopener\">Mailgun</a> as you can send up to 10,000 emails every month for free!</p>\n<h3>Automation 🤖</h3>\n<p>So it seems the application covers all your previously mentioned steps&#8230; but what makes it automatic?</p>\n<p>Not much really, just run the function once every hour (or as much as you&#8217;d like) using a <a href=\"https://github.com/kelektiv/node-cron\" target=\"_blank\" rel=\"noopener\">cron</a>. A cron is &#8220;a command to an operating system or server for a job that is to be executed at a specified time&#8221;. In this case, the application checks if there are any files to be sent. If there are, execute the rest of the application; if not, don&#8217;t do anything. As previously mentioned, promise chains make this process a breeze.</p>\n<p>Like everything, there is always room to improve. The cron could be removed by only running the function when a file has been uploaded, and obviously you can&#8217;t just do this with the API but you smart cookies out there would&#8217;ve realised you can do this with the use of webhooks (but that’s for another time).</p>\n<h2>Conclusion</h2>\n<p>This project was super enjoyable! I learnt a multitude of things from Node to Shell scripting, from Cron jobs to Promises. Little side projects like these really push you forward as a developer. They allow for you to be the perfectionist you want to be and create something to improve your life (and sometimes others’ lives too) in more ways than one.</p>\n",
+      "excerpt": "<p>I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. &#8211; Bill Gates This quote, I feel, describes why I love being a programmer. We are generally lazy yet quite good at solving problems, including our own! Sometimes, this may not involve even [&hellip;]</p>\n",
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "tags": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts/196"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=196"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts/196/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media?parent=196"
+          }
+        ],
+        "wp_term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/categories?post=196"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/tags?post=196"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "bcf311a6-3de4-553f-a4f4-e227bf9b487d",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "categories___NODE": [
+        "f24b5a9e-ed37-56c1-978a-9c95dbc988a9"
+      ],
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__POST",
+        "contentDigest": "edfe8331d1ceab7979ab77adbc286ee4",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "d7c290bc-ef09-518e-bc51-be1661f203a1": {
+      "wordpress_id": 168,
+      "date": "2017-10-01T01:34:10.000Z",
+      "guid": "http://dfjames.press/?p=168",
+      "modified": "2017-10-05T12:19:42.000Z",
+      "slug": "site-generating-with-the-great-gatsbyjs",
+      "status": "publish",
+      "type": "post",
+      "link": "https://dfjames.press/site-generating-with-the-great-gatsbyjs/",
+      "title": "Site generating with the great GatsbyJS",
+      "content": "<p><span style=\"font-weight: 400\">When someone mentions static site generation many people think of <a href=\"https://jekyllrb.com/\" target=\"_blank\" rel=\"noopener\">Jekyll</a>. I had heard some good things about it and noticed it would allow me to build a blog quite easily. I was eager to learn something new and get something up and running that was more than just my usual WordPress theme. I was on the verge of rebuilding my portfolio site until a certain <a href=\"https://www.youtube.com/user/LevelUpTuts\" target=\"_blank\" rel=\"noopener\">Scott Tolinski </a>released a video on <a href=\"https://youtu.be/b2H7fWhQcdE\" target=\"_blank\" rel=\"noopener\">GatsbyJS</a>.</span></p>\n<p><span style=\"font-weight: 400\"><a href=\"https://www.gatsbyjs.org/\" target=\"_blank\" rel=\"noopener\">GatsbyJS</a> is a static site generator, similar to Jekyll, however it is written using <a href=\"https://reactjs.org/\" target=\"_blank\" rel=\"noopener\">React</a> and allows you to write your pages as React components! It is somewhat similar to create-react-app where almost all the scary Webpack config has been abstracted away from you and everything is setup ready to go, so you can get to the important stuff like&#8230;building the site! (If you are a fan of React and not convinced, the <a href=\"https://reactjs.org/\" target=\"_blank\" rel=\"noopener\">React website/docs</a> were just released using Gatsby!)</span></p>\n<p><span style=\"font-weight: 400\">This caught my attention for multiple reasons. I wanted to:</span></p>\n<ul>\n<li><span style=\"font-weight: 400\">Be able to build a new site with a blog relatively quickly</span></li>\n<li><span style=\"font-weight: 400\">Have a site that loads quickly/is performant</span></li>\n<li><span style=\"font-weight: 400\">Learn some more React and JavaScript</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Another reason I ended up going with Gatsby was the promise that your project could be connected to various APIs or even a CMS of your choice.</span></p>\n<h2><span style=\"font-weight: 400\">The magic of GraphQL and Gatsby Plugins</span></h2>\n<p><span style=\"font-weight: 400\">Originally, following Scott&#8217;s and the official Gatsby tutorial, I had it pulling my content from good ol&#8217; Markdown files. Then I saw it&#8230; too good to be true, the mention of connecting it to <a href=\"https://wordpress.org/\" target=\"_blank\" rel=\"noopener\">WordPress</a>&#8230; I have been writing WordPress themes for almost 2 years now, so this got me super excited. To have my back-end as WordPress (including <a href=\"https://www.advancedcustomfields.com/\" target=\"_blank\" rel=\"noopener\">ACF</a>) and the front-end in React, I had found the perfect place to test my front-end abilities.</span></p>\n<p><span style=\"font-weight: 400\">I was skeptical at first: would I have to parse large amounts of JSON to get the data I needed? I have never even interacted with the WordPress REST API, how will I query it?</span></p>\n<p><span style=\"font-weight: 400\">The answer&#8230; <a href=\"http://graphql.org/\" target=\"_blank\" rel=\"noopener\">GraphQL</a>. Gatsby ships with it and through an npm install of a <a href=\"https://www.gatsbyjs.org/docs/plugins/\" target=\"_blank\" rel=\"noopener\">gatsby-source plugin</a> of your choice and a tiny bit of a config, you can start querying in no time. I was amazed with how simple queries are using GraphQL. You look at them and you go &#8220;Huh, that&#8217;s it? Really?&#8221;. Gatsby even ships with an in-browser query tester so you can see exactly what data you are getting from your GraphQL queries. Wanna sort those blog posts by date? No problem, just add a flag.</span></p>\n<h2><span style=\"font-weight: 400\">Wrap up and future</span></h2>\n<p><span style=\"font-weight: 400\">In just a few weekends I managed to rebuild my portfolio site with the blog I wanted. I&#8217;d highly recommend <a href=\"https://www.gatsbyjs.org/tutorial/\">Gatsby</a> for anyone who has started getting acquainted with React. Before I started this project I didn&#8217;t know a lot about:</span></p>\n<ul>\n<li><span style=\"font-weight: 400\">Static site generation</span></li>\n<li><span style=\"font-weight: 400\">Creating a Progressive Web App (PWA) and what qualifies as one</span></li>\n<li><span style=\"font-weight: 400\">React Router</span></li>\n<li><span style=\"font-weight: 400\">GraphQL</span></li>\n<li><span style=\"font-weight: 400\">WordPress REST API</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Moving forward I&#8217;d like to extend the project to include pagination within the blog, use <a href=\"https://www.styled-components.com/\" target=\"_blank\" rel=\"noopener\">Styled Components</a> and ensure the site scores a 90+ overall on <a href=\"https://developers.google.com/web/tools/lighthouse/\" target=\"_blank\" rel=\"noopener\">Lighthouse</a> (Google performance auditing tool)</span></p>\n<p><span style=\"font-weight: 400\">tl;dr &#8211; Side projects are great and you can learn a lot from them. Stay in the loop and listen to others whether that be watching tutorials, listening to podcasts, following devs on twitter, reading articles on </span><a href=\"http://dev.to\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400\">dev.to</span></a><span style=\"font-weight: 400\">, blogs etc. #neverstoplearning</span></p>\n<p><span style=\"font-weight: 400\">If you are like me, learn something, build something, even if it&#8217;s small, then write about it, then you&#8217;ll have a first blog post, just like this one 😀</span></p>\n",
+      "excerpt": "<p>When someone mentions static site generation many people think of Jekyll. I had heard some good things about it and noticed it would allow me to build a blog quite easily. I was eager to learn something new and get something up and running that was more than just my usual WordPress theme. I was on [&hellip;]</p>\n",
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "template": "",
+      "format": "standard",
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts/168"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/post"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=168"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts/168/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media?parent=168"
+          }
+        ],
+        "wp_term": [
+          {
+            "taxonomy": "category",
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/categories?post=168"
+          },
+          {
+            "taxonomy": "post_tag",
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/tags?post=168"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "d7c290bc-ef09-518e-bc51-be1661f203a1",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "tags___NODE": [
+        "523491d5-4c21-5c07-a1b5-7f04a6c69e96"
+      ],
+      "categories___NODE": [
+        "f24b5a9e-ed37-56c1-978a-9c95dbc988a9"
+      ],
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__POST",
+        "contentDigest": "cae84543e6aec7240c59131f007b8bda",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ff4cd702-2119-52d6-a303-3ce8509c845e": {
+      "wordpress_id": 156,
+      "date": "2017-09-29T00:42:29.000Z",
+      "guid": "http://dfjames.press/?page_id=156",
+      "modified": "2018-05-24T11:30:51.000Z",
+      "slug": "projects",
+      "status": "publish",
+      "type": "page",
+      "link": "https://dfjames.press/projects/",
+      "title": "Projects",
+      "content": "<p>Below are some of the projects I have worked on as the primary developer both at <a href=\"http://chromatix.com.au\" target=\"_blank\" rel=\"noopener\">Chromatix Digital Agency</a> and other freelance work. One of my biggest achievements recently was being the primary developer on an Education website that took out the 2016 National Winner in Education at the <a href=\"https://www.webawards.com.au/\" target=\"_blank\" rel=\"noopener\">Australian Web Awards.</a></p>\n",
+      "excerpt": "<p>Below are some of the projects I have worked on as the primary developer both at Chromatix Digital Agency and other freelance work. One of my biggest achievements recently was being the primary developer on an Education website that took out the 2016 National Winner in Education at the Australian Web Awards.</p>\n",
+      "wordpress_parent": 0,
+      "menu_order": 0,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "template": "template-projects.php",
+      "meta": [],
+      "acf": {
+        "portfolio_items": [
+          {
+            "item_title": "Modus Leadership",
+            "item_url": "http://modusleadership.com.au/",
+            "item_image___NODE": "e47b2a96-3f03-526d-b9f4-782c75b90c2a"
+          },
+          {
+            "item_title": "Rylock Windows",
+            "item_url": "https://rylock.com.au",
+            "item_image___NODE": "3eda54db-1f7f-5a86-b4a4-5862b1a8148b"
+          },
+          {
+            "item_title": "Absolute 3D",
+            "item_url": "http://absolute3d.com.au",
+            "item_image___NODE": "3840a15d-62ee-5b2c-b58f-9b372f19aa6a"
+          },
+          {
+            "item_title": "Venus White",
+            "item_url": "http://venuswhite.com.au",
+            "item_image___NODE": "fac57130-d000-5441-a6c7-36a693f08610"
+          },
+          {
+            "item_title": "Waverley Forklifts",
+            "item_url": "http://www.waverleyforklifts.com.au/",
+            "item_image___NODE": "ae94c9bf-a1b0-5028-a614-59ce4425a39c"
+          },
+          {
+            "item_title": "School Of Clay And Art",
+            "item_url": "http://soca.com.au",
+            "item_image___NODE": "6ae24a78-3f8b-5a5a-9741-cb8296b4db76"
+          }
+        ]
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages/156"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/page"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=156"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages/156/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media?parent=156"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "ff4cd702-2119-52d6-a303-3ce8509c845e",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__PAGE",
+        "contentDigest": "2a0adfbf16f8ee9a768eef8cd5df0eae",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "86cd5d18-47ad-5e6c-875d-b166055c6947": {
+      "wordpress_id": 7,
+      "date": "2016-01-20T07:52:50.000Z",
+      "guid": "http://dfjames.press/?page_id=7",
+      "modified": "2018-05-24T11:09:50.000Z",
+      "slug": "home-page",
+      "status": "publish",
+      "type": "page",
+      "link": "https://dfjames.press/",
+      "title": "Home",
+      "content": "<h2>David James</h2>\n<h3>Front End Developer</h3>\n<p>Website builder and passionate about all things web. Also a CSS fanatic, photographer and skateboarder.</p>\n",
+      "excerpt": "<p>David James Front End Developer Website builder and passionate about all things web. Also a CSS fanatic, photographer and skateboarder.</p>\n",
+      "wordpress_parent": 0,
+      "menu_order": 0,
+      "comment_status": "closed",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "acf": {
+        "profile_image___NODE": "91eaaca7-1957-5d27-8705-b9c2c86194f2",
+        "dummy": true
+      },
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages/7"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/page"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=7"
+          }
+        ],
+        "version_history": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages/7/revisions"
+          }
+        ],
+        "wp_attachment": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media?parent=7"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "86cd5d18-47ad-5e6c-875d-b166055c6947",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__PAGE",
+        "contentDigest": "cbebfed52d238c0929f01f2df90f3ebe",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "fac57130-d000-5441-a6c7-36a693f08610": {
+      "wordpress_id": 221,
+      "date": "2018-05-24T11:29:39.000Z",
+      "modified": "2018-05-24T11:30:35.000Z",
+      "slug": "venus",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/venus/",
+      "title": "venus",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/venus.png'><img width=\"300\" height=\"210\" src=\"https://dfjames.press/assets/uploads/2018/05/venus-300x210.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/venus-300x210.png 300w, https://dfjames.press/assets/uploads/2018/05/venus-768x537.png 768w, https://dfjames.press/assets/uploads/2018/05/venus-1024x716.png 1024w, https://dfjames.press/assets/uploads/2018/05/venus.png 1139w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1139,
+        "height": 796,
+        "file": "2018/05/venus.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/venus.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/221"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=221"
+          }
+        ]
+      },
+      "id": "fac57130-d000-5441-a6c7-36a693f08610",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "fac57130-d000-5441-a6c7-36a693f08610",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/0ad3df54debb226c33ac349c47ac38c3.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "e28046445687162074b98846bb2bc7a8",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "6ae24a78-3f8b-5a5a-9741-cb8296b4db76": {
+      "wordpress_id": 220,
+      "date": "2018-05-24T11:29:35.000Z",
+      "modified": "2018-05-24T11:30:46.000Z",
+      "slug": "soca",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/soca/",
+      "title": "soca",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/soca.png'><img width=\"300\" height=\"210\" src=\"https://dfjames.press/assets/uploads/2018/05/soca-300x210.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/soca-300x210.png 300w, https://dfjames.press/assets/uploads/2018/05/soca-768x538.png 768w, https://dfjames.press/assets/uploads/2018/05/soca-1024x718.png 1024w, https://dfjames.press/assets/uploads/2018/05/soca.png 1140w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1140,
+        "height": 799,
+        "file": "2018/05/soca.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/soca.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/220"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=220"
+          }
+        ]
+      },
+      "id": "6ae24a78-3f8b-5a5a-9741-cb8296b4db76",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "6ae24a78-3f8b-5a5a-9741-cb8296b4db76",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/389230cc527db7bc526a44f230b40aa9.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "c352b9a6de90d973dc7a5c43e555f6f2",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "3eda54db-1f7f-5a86-b4a4-5862b1a8148b": {
+      "wordpress_id": 219,
+      "date": "2018-05-24T11:29:31.000Z",
+      "modified": "2018-05-24T11:30:14.000Z",
+      "slug": "rylock",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/rylock/",
+      "title": "rylock",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/rylock.png'><img width=\"300\" height=\"210\" src=\"https://dfjames.press/assets/uploads/2018/05/rylock-300x210.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/rylock-300x210.png 300w, https://dfjames.press/assets/uploads/2018/05/rylock-768x537.png 768w, https://dfjames.press/assets/uploads/2018/05/rylock-1024x716.png 1024w, https://dfjames.press/assets/uploads/2018/05/rylock.png 1142w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1142,
+        "height": 798,
+        "file": "2018/05/rylock.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/rylock.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/219"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=219"
+          }
+        ]
+      },
+      "id": "3eda54db-1f7f-5a86-b4a4-5862b1a8148b",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "3eda54db-1f7f-5a86-b4a4-5862b1a8148b",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/7b8b9ab52b917f1676e040608a4c55ca.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "8224ff3c9ed9b6434eb514e3ddacc760",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "e47b2a96-3f03-526d-b9f4-782c75b90c2a": {
+      "wordpress_id": 218,
+      "date": "2018-05-24T11:29:25.000Z",
+      "modified": "2018-05-24T11:30:09.000Z",
+      "slug": "modus",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/modus/",
+      "title": "modus",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/modus.png'><img width=\"300\" height=\"209\" src=\"https://dfjames.press/assets/uploads/2018/05/modus-300x209.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/modus-300x209.png 300w, https://dfjames.press/assets/uploads/2018/05/modus-768x535.png 768w, https://dfjames.press/assets/uploads/2018/05/modus-1024x713.png 1024w, https://dfjames.press/assets/uploads/2018/05/modus.png 1143w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1143,
+        "height": 796,
+        "file": "2018/05/modus.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/modus.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/218"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=218"
+          }
+        ]
+      },
+      "id": "e47b2a96-3f03-526d-b9f4-782c75b90c2a",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "e47b2a96-3f03-526d-b9f4-782c75b90c2a",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/14f8974675209eee9623cdc256f3146e.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "63c4a5c9e558f1dded0a518b39c6c927",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "ae94c9bf-a1b0-5028-a614-59ce4425a39c": {
+      "wordpress_id": 217,
+      "date": "2018-05-24T11:29:20.000Z",
+      "modified": "2018-05-24T11:30:40.000Z",
+      "slug": "forklift",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/forklift/",
+      "title": "forklift",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/forklift.png'><img width=\"300\" height=\"210\" src=\"https://dfjames.press/assets/uploads/2018/05/forklift-300x210.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/forklift-300x210.png 300w, https://dfjames.press/assets/uploads/2018/05/forklift-768x538.png 768w, https://dfjames.press/assets/uploads/2018/05/forklift-1024x717.png 1024w, https://dfjames.press/assets/uploads/2018/05/forklift.png 1140w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1140,
+        "height": 798,
+        "file": "2018/05/forklift.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/forklift.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/217"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=217"
+          }
+        ]
+      },
+      "id": "ae94c9bf-a1b0-5028-a614-59ce4425a39c",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "ae94c9bf-a1b0-5028-a614-59ce4425a39c",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/4aa03172756a697cf81e3535f737f626.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "1edba0d0e1bf6e712fbc403f1a460ae3",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "3840a15d-62ee-5b2c-b58f-9b372f19aa6a": {
+      "wordpress_id": 216,
+      "date": "2018-05-24T11:29:14.000Z",
+      "modified": "2018-05-24T11:30:20.000Z",
+      "slug": "absolute",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/projects/absolute/",
+      "title": "absolute",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/absolute.png'><img width=\"300\" height=\"209\" src=\"https://dfjames.press/assets/uploads/2018/05/absolute-300x209.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/absolute-300x209.png 300w, https://dfjames.press/assets/uploads/2018/05/absolute-768x536.png 768w, https://dfjames.press/assets/uploads/2018/05/absolute-1024x715.png 1024w, https://dfjames.press/assets/uploads/2018/05/absolute.png 1140w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/png",
+      "media_details": {
+        "width": 1140,
+        "height": 796,
+        "file": "2018/05/absolute.png",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 156,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/absolute.png",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/216"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=216"
+          }
+        ]
+      },
+      "id": "3840a15d-62ee-5b2c-b58f-9b372f19aa6a",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "3840a15d-62ee-5b2c-b58f-9b372f19aa6a",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/dea5890bbc14ce011a711698915ae406.png absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "f565b938e5e8616dd6fbf8fb52e3492a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "91eaaca7-1957-5d27-8705-b9c2c86194f2": {
+      "wordpress_id": 213,
+      "date": "2018-05-24T11:08:58.000Z",
+      "modified": "2018-05-24T11:09:20.000Z",
+      "slug": "davidpoop_ntlowres-1",
+      "status": "inherit",
+      "type": "attachment",
+      "link": "https://dfjames.press/home-page/davidpoop_ntlowres-1/",
+      "title": "davidpoop_NTlowres (1)",
+      "comment_status": "open",
+      "ping_status": "closed",
+      "template": "",
+      "meta": [],
+      "description": "<p class=\"attachment\"><a href='https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1.jpg'><img width=\"300\" height=\"199\" src=\"https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1-300x199.jpg\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1-300x199.jpg 300w, https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1-768x510.jpg 768w, https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1-1024x680.jpg 1024w, https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+      "caption": "",
+      "alt_text": "",
+      "media_type": "image",
+      "mime_type": "image/jpeg",
+      "media_details": {
+        "width": 1200,
+        "height": 797,
+        "file": "2018/05/davidpoop_NTlowres-1.jpg",
+        "image_meta": {
+          "aperture": "0",
+          "credit": "",
+          "camera": "",
+          "caption": "",
+          "created_timestamp": "0",
+          "copyright": "",
+          "focal_length": "0",
+          "iso": "0",
+          "shutter_speed": "0",
+          "title": "",
+          "orientation": "0",
+          "keywords": []
+        }
+      },
+      "post": 7,
+      "source_url": "https://dfjames.press/assets/uploads/2018/05/davidpoop_NTlowres-1.jpg",
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media/213"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types/attachment"
+          }
+        ],
+        "author": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "replies": [
+          {
+            "embeddable": true,
+            "href": "https://dfjames.press/wp-json/wp/v2/comments?post=213"
+          }
+        ]
+      },
+      "id": "91eaaca7-1957-5d27-8705-b9c2c86194f2",
+      "author___NODE": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "guid___NODE": "91eaaca7-1957-5d27-8705-b9c2c86194f2",
+      "localFile___NODE": "/home/ghulamhussain/my/ghulamhussain.github.io/.cache/gatsby-source-filesystem/58a27537c43dd5b461d1274f9ede221c.jpg absPath of file",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_media",
+        "contentDigest": "b0ef5aaaf168c4f9c1aa4cd3a5cc7ca4",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "a2d1aa19-233b-5acb-b193-a8f8dbfb3e80": {
+      "wordpress_id": "post",
+      "description": "",
+      "hierarchical": false,
+      "name": "Posts",
+      "slug": "post",
+      "taxonomies": [
+        "category",
+        "post_tag"
+      ],
+      "rest_base": "posts",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "a2d1aa19-233b-5acb-b193-a8f8dbfb3e80",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "20ce8567cc575ab5eae38bc73ca7955a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "c8b09b7f-356c-5009-981d-86669dcbafcc": {
+      "wordpress_id": "page",
+      "description": "",
+      "hierarchical": true,
+      "name": "Pages",
+      "slug": "page",
+      "taxonomies": [],
+      "rest_base": "pages",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/pages"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "c8b09b7f-356c-5009-981d-86669dcbafcc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "ed73898b4620a1a81f068434711715dc",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "b69811c2-484a-5b8c-9c5a-d0da3737bf18": {
+      "wordpress_id": "attachment",
+      "description": "",
+      "hierarchical": false,
+      "name": "Media",
+      "slug": "attachment",
+      "taxonomies": [],
+      "rest_base": "media",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/types"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/media"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "b69811c2-484a-5b8c-9c5a-d0da3737bf18",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_types",
+        "contentDigest": "a68b59d8e19a2cce6403cac47d872ff2",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "59223e42-064c-537b-b2f6-e7a534391e19": {
+      "wordpress_id": "publish",
+      "name": "Published",
+      "public": true,
+      "queryable": true,
+      "slug": "publish",
+      "_links": {
+        "archives": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts"
+          }
+        ]
+      },
+      "id": "59223e42-064c-537b-b2f6-e7a534391e19",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_statuses",
+        "contentDigest": "b76b91897d22b824ba0cce7100a6ce67",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "caf4e364-5082-5e2f-8520-d98910e399e5": {
+      "wordpress_id": "acf-disabled",
+      "name": "Inactive",
+      "public": true,
+      "queryable": true,
+      "slug": "acf-disabled",
+      "_links": {
+        "archives": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts?status=acf-disabled"
+          }
+        ]
+      },
+      "id": "caf4e364-5082-5e2f-8520-d98910e399e5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_statuses",
+        "contentDigest": "37f8ea55feaaf1c0c9c60055050aafc4",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844": {
+      "wordpress_id": "category",
+      "name": "Categories",
+      "slug": "category",
+      "description": "",
+      "types": [
+        "post"
+      ],
+      "hierarchical": true,
+      "rest_base": "categories",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/categories"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_taxonomies",
+        "contentDigest": "784d74b143834764f83733a91648da7a",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "92aef5e8-a969-590e-8788-9b65d3c78cce": {
+      "wordpress_id": "post_tag",
+      "name": "Tags",
+      "slug": "post_tag",
+      "description": "",
+      "types": [
+        "post"
+      ],
+      "hierarchical": false,
+      "rest_base": "tags",
+      "_links": {
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/taxonomies"
+          }
+        ],
+        "wp_items": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/tags"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "92aef5e8-a969-590e-8788-9b65d3c78cce",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_taxonomies",
+        "contentDigest": "3058e73504476f6ef4d7a71598ffec17",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "f24b5a9e-ed37-56c1-978a-9c95dbc988a9": {
+      "wordpress_id": 1,
+      "count": 2,
+      "description": "",
+      "link": "https://dfjames.press/category/uncategorised/",
+      "name": "Uncategorised",
+      "slug": "uncategorised",
+      "wordpress_parent": 0,
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/categories/1"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/categories"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/taxonomies/category"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts?categories=1"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "f24b5a9e-ed37-56c1-978a-9c95dbc988a9",
+      "taxonomy___NODE": "a5a9ef9b-18e6-5a52-bce8-ed8b7aa25844",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__CATEGORY",
+        "contentDigest": "9962c3605b0343946cb2cf6cae5bd64f",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "523491d5-4c21-5c07-a1b5-7f04a6c69e96": {
+      "wordpress_id": 2,
+      "count": 1,
+      "description": "",
+      "link": "https://dfjames.press/tag/gatsby/",
+      "name": "gatsby",
+      "slug": "gatsby",
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/tags/2"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/tags"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/taxonomies/post_tag"
+          }
+        ],
+        "wp_post_type": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/posts?tags=2"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      },
+      "id": "523491d5-4c21-5c07-a1b5-7f04a6c69e96",
+      "taxonomy___NODE": "92aef5e8-a969-590e-8788-9b65d3c78cce",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__TAG",
+        "contentDigest": "033d8f48717156c51d727e21acbec9f3",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "7684fe61-29fe-503c-b81b-8a2caed063cd": {
+      "wordpress_id": 2,
+      "name": "David James",
+      "url": "http://dfjames.com",
+      "description": "",
+      "link": "https://dfjames.press/author/david-james/",
+      "slug": "david-james",
+      "avatar_urls": {
+        "wordpress_24": "https://secure.gravatar.com/avatar/ad3ea1f101e53042b78ede84dc940aa3?s=24&d=mm&r=g",
+        "wordpress_48": "https://secure.gravatar.com/avatar/ad3ea1f101e53042b78ede84dc940aa3?s=48&d=mm&r=g",
+        "wordpress_96": "https://secure.gravatar.com/avatar/ad3ea1f101e53042b78ede84dc940aa3?s=96&d=mm&r=g"
+      },
+      "meta": [],
+      "_links": {
+        "self": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/users/2"
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://dfjames.press/wp-json/wp/v2/users"
+          }
+        ]
+      },
+      "id": "7684fe61-29fe-503c-b81b-8a2caed063cd",
+      "all_authored_entities___NODE": [
+        "bcf311a6-3de4-553f-a4f4-e227bf9b487d",
+        "d7c290bc-ef09-518e-bc51-be1661f203a1",
+        "ff4cd702-2119-52d6-a303-3ce8509c845e",
+        "86cd5d18-47ad-5e6c-875d-b166055c6947",
+        "fac57130-d000-5441-a6c7-36a693f08610",
+        "6ae24a78-3f8b-5a5a-9741-cb8296b4db76",
+        "3eda54db-1f7f-5a86-b4a4-5862b1a8148b",
+        "e47b2a96-3f03-526d-b9f4-782c75b90c2a",
+        "ae94c9bf-a1b0-5028-a614-59ce4425a39c",
+        "3840a15d-62ee-5b2c-b58f-9b372f19aa6a",
+        "91eaaca7-1957-5d27-8705-b9c2c86194f2"
+      ],
+      "authored_wordpress__POST___NODE": [
+        "bcf311a6-3de4-553f-a4f4-e227bf9b487d",
+        "d7c290bc-ef09-518e-bc51-be1661f203a1"
+      ],
+      "authored_wordpress__PAGE___NODE": [
+        "ff4cd702-2119-52d6-a303-3ce8509c845e",
+        "86cd5d18-47ad-5e6c-875d-b166055c6947"
+      ],
+      "authored_wordpress__wp_media___NODE": [
+        "fac57130-d000-5441-a6c7-36a693f08610",
+        "6ae24a78-3f8b-5a5a-9741-cb8296b4db76",
+        "3eda54db-1f7f-5a86-b4a4-5862b1a8148b",
+        "e47b2a96-3f03-526d-b9f4-782c75b90c2a",
+        "ae94c9bf-a1b0-5028-a614-59ce4425a39c",
+        "3840a15d-62ee-5b2c-b58f-9b372f19aa6a",
+        "91eaaca7-1957-5d27-8705-b9c2c86194f2"
+      ],
+      "children": [],
+      "parent": null,
+      "internal": {
+        "type": "wordpress__wp_users",
+        "contentDigest": "4e5bc98efc0d438a4c63849a646822a8",
+        "owner": "gatsby-source-wordpress"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "context": {
+        "id": "ff4cd702-2119-52d6-a303-3ce8509c845e"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/page.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "abe9158b9aa6b867e8c1784d0bb2866d",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /home-page/": {
+      "layout": "index",
+      "jsonName": "home-page.json",
+      "internalComponentName": "ComponentHomePage",
+      "path": "/home-page/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/page.js",
+      "componentChunkName": "component---src-templates-page-js",
+      "context": {
+        "id": "86cd5d18-47ad-5e6c-875d-b166055c6947"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/page.js",
+      "id": "SitePage /home-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "aabd46cf951548b3e0003b206ac4c0de",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/email-automation-with-node-and-dropbox/": {
+      "layout": "index",
+      "jsonName": "blog-email-automation-with-node-and-dropbox.json",
+      "internalComponentName": "ComponentBlogEmailAutomationWithNodeAndDropbox",
+      "path": "/blog/email-automation-with-node-and-dropbox/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "id": "bcf311a6-3de4-553f-a4f4-e227bf9b487d"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/post.js",
+      "id": "SitePage /blog/email-automation-with-node-and-dropbox/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2747be81df0b2f40efed0f80bf658a0f",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/site-generating-with-the-great-gatsbyjs/": {
+      "layout": "index",
+      "jsonName": "blog-site-generating-with-the-great-gatsbyjs.json",
+      "internalComponentName": "ComponentBlogSiteGeneratingWithTheGreatGatsbyjs",
+      "path": "/blog/site-generating-with-the-great-gatsbyjs/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "id": "d7c290bc-ef09-518e-bc51-be1661f203a1"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/templates/post.js",
+      "id": "SitePage /blog/site-generating-with-the-great-gatsbyjs/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a4c42df90acac6a783a3f97bbde731de",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9d6071a492c24e3c83b3b4f0cccf5301",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bd09f7dba0ccbef95720a97dbd28fbd1",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "532fe34672df6572bc9cc28ec51fd71d",
+        "description": "Plugin component-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/home/ghulamhussain/my/ghulamhussain.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a3bf26aca7e0779c2ea20118e9164bb2",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "1aa1b637921bc18651e2f5455403b254"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "bcf311a6-3de4-553f-a4f4-e227bf9b487d": [
+        "/blog/email-automation-with-node-and-dropbox/"
+      ],
+      "Site": [
+        "/blog/email-automation-with-node-and-dropbox/",
+        "/home-page/",
+        "/blog/site-generating-with-the-great-gatsbyjs/"
+      ],
+      "86cd5d18-47ad-5e6c-875d-b166055c6947": [
+        "/home-page/",
+        "/"
+      ],
+      "ff4cd702-2119-52d6-a303-3ce8509c845e": [
+        "/projects/"
+      ],
+      "e47b2a96-3f03-526d-b9f4-782c75b90c2a": [
+        "/projects/"
+      ],
+      "3eda54db-1f7f-5a86-b4a4-5862b1a8148b": [
+        "/projects/"
+      ],
+      "3840a15d-62ee-5b2c-b58f-9b372f19aa6a": [
+        "/projects/"
+      ],
+      "fac57130-d000-5441-a6c7-36a693f08610": [
+        "/projects/"
+      ],
+      "ae94c9bf-a1b0-5028-a614-59ce4425a39c": [
+        "/projects/"
+      ],
+      "6ae24a78-3f8b-5a5a-9741-cb8296b4db76": [
+        "/projects/"
+      ],
+      "d7c290bc-ef09-518e-bc51-be1661f203a1": [
+        "/blog/site-generating-with-the-great-gatsbyjs/"
+      ],
+      "91eaaca7-1957-5d27-8705-b9c2c86194f2": [
+        "/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "wordpress__POST": [
+        "/blog/"
+      ]
+    }
+  }
+}
