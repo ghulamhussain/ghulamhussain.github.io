@@ -1,34 +1,43 @@
 {
-  "name": "dfjames-gatsby",
-  "description": "My portfolio site using GatsbyJS pulling data from Wordpress REST API",
-  "version": "1.2.0",
-  "author": "David James <davidj28827@gmail.com>",
+  "name": "ghulamhussain",
+  "description": "Personal website for Ghulam Hussain",
+  "version": "1.0.0",
+  "author": "",
   "dependencies": {
-    "autoprefixer": "^8.5.0",
-    "date-fns": "^1.29.0",
-    "gatsby": "^1.9.222",
-    "gatsby-link": "^1.6.38",
-    "gatsby-plugin-favicon": "^2.1.1",
-    "gatsby-plugin-google-tagmanager": "^1.0.18",
-    "gatsby-plugin-manifest": "^1.0.15",
-    "gatsby-plugin-nprogress": "^1.0.13",
-    "gatsby-plugin-offline": "^1.0.15",
-    "gatsby-plugin-postcss-sass": "^1.0.20",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typography": "^1.7.17",
-    "gatsby-source-wordpress": "^2.0.62",
-    "react-icons": "^2.2.7",
-    "typography-theme-fairy-gates": "^0.15.11"
+    "babel-plugin-styled-components": "^1.8.0",
+    "gatsby": "^2.0.19",
+    "gatsby-image": "^2.0.15",
+    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-plugin-styled-components": "^3.0.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.0.4",
+    "gatsby-source-medium": "^2.0.1",
+    "gatsby-transformer-sharp": "^2.1.4",
+    "react": "^16.5.1",
+    "react-anchor-link-smooth-scroll": "^1.0.11",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.0.2"
   },
   "keywords": [
-    "gatsby",
-    "wordpress"
+    "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gillkyle/me"
   }
 }

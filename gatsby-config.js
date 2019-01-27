@@ -1,84 +1,50 @@
-import autoprefixer from 'autoprefixer';
 module.exports = {
   siteMetadata: {
-    title: `Ghulam Hussain`,
-    subtitle: `Full Stack Developer`
+    title: 'Ghulam Hussain | Developer & Designer',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      // Pull wordpress content from API
-      resolve: 'gatsby-source-wordpress',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        baseUrl: 'dfjames.press',
-        protocol: 'https',
-        hostingWPCOM: false,
-        useACF: true,
-        // Set verboseOutput to true to display a verbose output on `npm run develop` or `npm run build`
-        // It can help you debug specific API Endpoints problems
-        verboseOutput: false
-      }
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
     },
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        ssr: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Ghulam Hussain - Full Stack Developer',
+        name: 'Ghulam Hussain | Developer & Designer',
         short_name: 'Ghulam Hussain',
         start_url: '/',
-        background_color: '#111111',
-        theme_color: '#111111',
-        display: 'minimal-ui'
-      }
-    },
-    `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography.js`
-      }
+        background_color: '#E6F1FF',
+        theme_color: '#5390F0',
+        display: 'minimal-ui',
+        icon: 'src/images/gatsby-icon.png',
+      },
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: `gatsby-source-medium`,
       options: {
-        logo: './src/images/favicon.png',
-        injectHTML: true,
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
+        username: `@kyle.robert.gill`,
+        limit: 200,
+      },
     },
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        id: 'GTM-NDXSQ5N',
-        includeInDevelopment: false
-      }
+        google: {
+          families: ['Lato'],
+        },
+      },
     },
-    {
-      resolve: `gatsby-plugin-nprogress`,
-      options: {
-        // Setting a color is optional.
-        color: `tomato`,
-        // Disable the loading spinner.
-        showSpinner: true
-      }
-    },
-    {
-      // Does both SASS
-      resolve: `gatsby-plugin-postcss-sass`,
-      options: {
-        postCssPlugins: [
-          autoprefixer({ browsers: ['> 1%', 'last 2 versions'] })
-        ]
-      }
-    }
-  ]
-};
+  ],
+}

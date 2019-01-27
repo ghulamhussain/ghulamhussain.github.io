@@ -1,18 +1,12 @@
 var plugins = [{
-      plugin: require('/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/glykysghk/Personnel/ghulamhussain.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"David James - Front End Developer","short_name":"David James","start_url":"/","background_color":"#111111","theme_color":"#111111","display":"minimal-ui"},
+      plugin: require('/home/glykysghk/Personnel/ghulamhussain.github.io/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"ssr":true},
     },{
-      plugin: require('/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
-      options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
-    },{
-      plugin: require('/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
-      options: {"plugins":[],"logo":"./src/images/favicon.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
-    },{
-      plugin: require('/home/ghulamhussain/my/ghulamhussain.github.io/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
-      options: {"plugins":[],"id":"GTM-NDXSQ5N","includeInDevelopment":false},
+      plugin: require('/home/glykysghk/Personnel/ghulamhussain.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"Ghulam Hussain | Developer & Designer","short_name":"Ghulam Hussain","start_url":"/","background_color":"#E6F1FF","theme_color":"#5390F0","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -29,17 +23,22 @@ var plugins = [{
 const apis = require(`./api-ssr-docs`)
 
 // Run the specified API in any plugins that have implemented it
-module.exports = (api, args, defaultReturn) => {
+module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
     console.log(`This API doesn't exist`, api)
   }
 
   // Run each plugin in series.
+  // eslint-disable-next-line no-undef
   let results = plugins.map(plugin => {
-    if (plugin.plugin[api]) {
-      const result = plugin.plugin[api](args, plugin.options)
-      return result
+    if (!plugin.plugin[api]) {
+      return undefined
     }
+    const result = plugin.plugin[api](args, plugin.options)
+    if (result && argTransform) {
+      args = argTransform({ args, result })
+    }
+    return result
   })
 
   // Filter out undefined results.
